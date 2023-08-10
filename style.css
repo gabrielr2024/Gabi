@@ -310,13 +310,31 @@ td {
     border-radius: 10px;
     color: #ffffff;
     font-size: 14px;
+    
 }
-
+.segunda-1 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.segunda-1 h2 {
+    font-size:1rem ;
+    margin-top:10px ;
+    margin-bottom: 5px;
+}
 .segunda-1{
-    margin: 40px 0;
-    width: 100%;
-    text-align: left;
-    border-collapse:collapse
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+.segunda-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 .tercero {
     margin: 5px;
@@ -535,6 +553,13 @@ table {
     margin-bottom: 0;
 }
 .personal-1 {
+    margin-bottom: 25px;
+}
+.segunda{
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.segunda-1 {
     margin-bottom: 25px;
 }
 
