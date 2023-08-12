@@ -206,7 +206,7 @@ section {
     margin-bottom: 2rem;
 
 }
- nav {
+nav {
 
     a {
         position: relative;
@@ -214,10 +214,10 @@ section {
         
     }
     
- }
- :nth-child(1) {
+}
+:nth-child(1) {
     animation-delay: 0.2s;
- }
+}
 :nth-child(2) {
     animation-delay: 0.4s;
 }
@@ -225,10 +225,10 @@ section {
 @keyframes slideinright {
     0% {
         
-       
+
         opacity: 0;
                 
-               
+    
         transform: translateX(100px);
 
 }
@@ -238,6 +238,19 @@ section {
 }
 }
 
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Aquí se ajusta a 10 columnas */
+    gap: 1rem;
+    padding: 1rem;
+
+    .product {
+        border: 1px solid #ccc;
+        padding: 1rem;
+        text-align: center;
+    }
+}
 
 
 
@@ -649,7 +662,7 @@ textarea {
   text-align: center;
 
   img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
   }
 
@@ -675,6 +688,7 @@ textarea {
     font-size: 16px;
   }
 }
+
 
 
 
