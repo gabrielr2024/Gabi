@@ -27,7 +27,7 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     position: relative;
@@ -68,8 +68,9 @@ body {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 75px;
     color: #cf2d3a;
+    background-color: #1f1f1f;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -116,6 +117,7 @@ color: #cf2d3a;
     font-family: 'Bebas Neue', cursive ;
     color: #cf2d3a;
     margin-bottom: 15px;
+    font-size: 2rem;
 }
 
 .header-txt span {
@@ -167,7 +169,7 @@ dir p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 150%;
 }
 
 .welcome-2 {
@@ -240,16 +242,10 @@ nav {
 
 
 .products {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(10, 1fr); /* Aquí se ajusta a 10 columnas */
     gap: 1rem;
     padding: 1rem;
-
-    .product {
-        border: 1px solid #ccc;
-        padding: 1rem;
-        text-align: center;
-    }
 }
 
 
@@ -267,6 +263,7 @@ h1{
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive ;
     margin-bottom: 20px;
+    font-size: 2rem;
 }
 .b1 {
     color: #cf2d3a;
@@ -508,7 +505,7 @@ main {
 
 
 
-@media(max-width:750px) {
+@media(max-width:768px) {
     .menu {
         padding: 20px;
     }
@@ -546,6 +543,7 @@ main {
 
 .header-txt h1 {
     font-size: 98px;
+    font-size: 2rem;
 }
 
 .header-txt p {
@@ -645,6 +643,7 @@ textarea {
     width: 250px !important;
 }
 
+
 }
 
 
@@ -662,7 +661,7 @@ textarea {
   text-align: center;
 
   img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
   }
 
